@@ -1,0 +1,66 @@
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+  background: #4E78E4;
+  background: linear-gradient(to right, #1d3162,#4E78E4);
+}
+
+.bg{
+    background-image: url(../img/home-img.png);
+    background-position: center center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bebas neue", sans-serif;
+}
+
+.conecta {
+    font-family: 'Bebas neue',sans-serif;
+    color: #ffffff;
+}
+
+.login{
+    background-color: #ffffff30;
+    border-radius: 40px;
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    margin: 5px;
+}
+
+.login h2{
+  font-size: 50px;
+}
+
+.login input{
+    border: 1px solid #4E78E4;
+    border-radius: 61px;
+}
+
+.login .btn-entrar {
+  border-radius: 48px;  
+  border: 0px solid #4E78E4;
+  color: #ffffff;
+  background: #4E78E4;
+}
+
+.login .btn-entrar:hover {
+  color:#4E78E4;
+  background-color: #ffffff;
+}
+
