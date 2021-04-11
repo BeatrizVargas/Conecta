@@ -13,7 +13,7 @@ input[type=number] {
 
 body {
   background: #4E78E4;
-  background: linear-gradient(to right, #1d3162,#4E78E4);
+  background: linear-gradient(to left, #1d3162,#4E78E4);
 }
 
 .bg{
@@ -33,6 +33,10 @@ h6 {
 .conecta {
     font-family: 'Bebas neue',sans-serif;
     color: #ffffff;
+}
+
+.conecta h2{
+  font-size: 100px;
 }
 
 .login{

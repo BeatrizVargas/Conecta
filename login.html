@@ -34,22 +34,27 @@
 
 <body>
     <main id="main">
-        <div class="container w-75 mt-5 rounded">
-            <div class="row align-items-stretch">
+        <div class="container w-100 mt-5 rounded">
+            <div class="row justify-content-between">
 
-                <div class="col conecta d-none d-lg-block col-md-5 col-lg-5 col-xl-6 text-center">
+                <div class="col conecta d-none d-lg-block col-md-7 col-lg-7 col-xl-7 text-center">
                     <!-- ======= Conecta Section ======= -->
                     <section id="conecta">
-                        <img src="./assets/img/login-img.png" alt="">
+                        <p class="p-1"></p>
+                        <img src="./assets/img/login/login-img.png" alt="" class="p-4">
+                        <h2>CONECTA</h2>
                     </section><!-- End Conecta Section -->
                 </div>
 
                 <div class="col login shadow text-center p-5">
                     <!-- ======= Login Section ======= -->
-                    <section id="login">
-                        <h2 class="py-5">LOGIN</h2>
+                    <section id="login">                    
+                        <div class="text-center">
+                            <img src="./assets/img/login/login-conecta.png" width="80" alt="">
+                        </div>
+                        <h2 class="py-3">LOGIN</h2>
                         <form action="/welcome/welcome1.html">
-                            <div class="mb-4">
+                            <div class="mb-3">
                                 <label for="code" class="form-label">Código Universitario</label>
                                 <input type="number" class="form-control" name="code" minlength="8" maxlength="10"
                                     placeholder="Código Universitario" required>
