@@ -1,6 +1,6 @@
 body {
   background: #4e78e4;
-  background: linear-gradient(to right, #1d3162, #4e78e4);
+  background: linear-gradient(to left, #1d3162, #4e78e4);
 }
 h1,
 h2,
@@ -9,4 +9,28 @@ h4,
 h5,
 h6 {
   font-family: "Bebas neue", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+.conecta h1 {
+  color: #ffffff;
+  font-size: 100px;
+}
+
+.paragraph p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.buttonEmpezar{
+  width: 150px;
+  border-radius: 30px;
+}
+
+.buttonEmpezar:hover{
+  background-color: #ffffff;
+  color: #4e78e4;
 }

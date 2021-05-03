@@ -1,13 +1,4 @@
-/**
-* Template Name: FlexStart - v1.2.0
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 :root {
   scroll-behavior: smooth;
 }
@@ -245,6 +236,8 @@ section {
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 20px;
+  text-align: center;
+  width: 200px;
   color: #ffffff;
 }
 
@@ -255,11 +248,13 @@ section {
 
 .navbar .signin {
   padding: 8px 20px;
-  margin-left: 30px;
   border-radius: 20px;
-  border: 1px solid #ffffff;
+  margin-left: 30px;
+  width: 135px;
+  text-align: center;
   color: #ffffff;
-  background-color:#5D85ED ;
+  border: 1px solid #ffffff;
+  background:#5D85ED ;
 }
 
 .navbar .signin:hover {
@@ -397,6 +392,10 @@ section {
 }
 
 .navbar-mobile .getstarted {
+  margin: 15px;
+}
+
+.navbar-mobile .signin{
   margin: 15px;
 }
 
